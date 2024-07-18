@@ -147,24 +147,51 @@ span{
     color: #ffffff;
     position: absolute;
     z-index: 2;
-    padding: 10px 30px;
+    padding: 20px 70px;
     max-width: 130px;
     height: 70px;
     border-radius: 10px;
     border: 1px solid #ffffff3a;
-    left: 65%;
+    left: 64%;
     top: 90%;
     box-shadow: rgba(0, 0, 0, 0.534);
 }
-#btn-text{
+#btn-tex{
     font-size: 1.5rem;
     display: block;
     font-weight: 800;
     background-color: transparent;
+   
 }
 
-#btn-text-2{
+#btn-text-3{
     font-size: .5rem;
     color: #ffffffa2;
     background-color: transparent;
+}
+
+
+.btn-container{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 50px;
+    gap: 7px;
+    justify-content: center;
+    
+}
+
+.btn-shape{
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-left: 3px;
+
+}
+
+.btn-text-container{
+    background-color: transparent;
+   margin-top: -10px;
 }
