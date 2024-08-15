@@ -70,4 +70,109 @@
         margin-left: 25px;
        
     }
+
+    .run-container{
+        height: 500px;
+        padding: 0 20px;
+        
+    }
+
+    .run-catagory{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+
+    .run-content{
+        margin-left: 8px;
+    }
+    .run-btn{
+        width: 100%;
+    }
+    .run-img img{
+        width: 100%;
+        margin-left: 00px;
+        overflow: hidden;
+        margin-top: -30px;
+    }
+
+
+    .bmi-text>h2{
+        padding-top: 20px
+        font-size: 1.5rem;
+        text-align: start;
+        width: 100%;
+        margin: 0;
+        margin-top: -70px;
+    }
+    .bmi-text>p {
+        padding-top: 30px;
+        text-align: start;
+        width: 100%;
+        margin: 0;
+        color: #7a7a7a;
+        
+    }
+
+    .boxes-bmi{
+        flex-direction: column;
+    }
+
+    .bmi-container{
+        height: 800px;
+    }
+
+    .bmi-left-box{
+        width: 100%;
+        align-items: start;
+        margin-left: 20px;
+       
+    }
+
+    .bmi-right-box{
+        margin-left: 10px;
+        
+    }
+    .bmi-right-box>h3 {
+        margin-top: 5px;
+    
+    }
+
+    .bmi-right-box>p {
+        margin-top: 20px;
+        width: 95%;
+    
+    }
+
+    table {
+        width: 90%;
+        margin-top: -160px;
+        
+    }
+
+    input {
+        width: 80%;
+    }
+    
+    select {
+        width: 96%;
+    }
+    #select-factor{
+        width: 195%;
+    }
+    .bmi-right-box {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    #calculate{
+        margin-left: 10px;
+    }
+
+    #bmi-left-chart-title{
+        margin-top: -70px;
+    }
+
+    #bmi-right-chart-title{
+        margin-top: -70px;
+    }
 }
