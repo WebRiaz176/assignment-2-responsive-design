@@ -465,6 +465,81 @@ select {
 }
 
 
+/* Extra section starts here */
+.ExtraContainer{
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    
+}
+.extraboxess{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.extrabox{
+    /* border: 1px solid green; */
+    margin: 20px 10px;
+    padding: 50px 30px;
+    border-radius: 8px;
+    background-color: #222222;
+}
+.extrabox>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.extrabox-head-h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+}
+.extrabox-head-p{
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: start;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #6b6a6a;
+}
+.read-more{
+    background-color: rgb(29, 29, 29);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+.fa-brands, .fa-solid{
+    font-size: 50px;
+    color: #ffffff;
+}
+.fa-angles-right{
+    font-size: 16px;
+    color: #E6533C;
+}
+
+.extrabox:hover .fa-brands{
+    color: #E6533C;
+}
+.extrabox:hover .fa-solid{
+    color: #E6533C;
+}
+    
+
+.extrabox:hover{
+    border-bottom: 2px solid #E6533C;
+}
+.extrabox{
+    border-bottom: 2px solid #000000;
+}
+.extrabox:hover .read-more{
+    border: 1px solid #E6533C;
+}
+
+
+/* Extra section ends here */
 
 
 
